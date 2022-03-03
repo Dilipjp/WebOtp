@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  mainObj:any={};
+  mainObj: any={};
 
   constructor() {}
 
@@ -31,7 +31,6 @@ export class AppComponent {
             });
         }
         var reqObj =  {
-          newotp: 
           otp: { transport:['sms'] },
           signal: ac.signal
       };

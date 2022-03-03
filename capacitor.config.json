@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "web-otp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

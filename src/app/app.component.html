@@ -1,0 +1,28 @@
+<ion-app>
+  <!-- <ion-router-outlet></ion-router-outlet> -->
+  <div class="container">
+    <div class="borderSection checkInternet">
+        <div>
+          <label><b>The simplest Web OTP API demo:</b></label>
+          <br>
+          <label *ngIf="!mainObj.isWebOtpSupported" style="color: red;">
+              Web OTP API not supported, Please enter manually.
+          </label>
+        </div> 
+          <div>
+            Process Exp: Send an SMS that includes <br>
+            <pre><code>
+                Your OTP is: 123456.
+                @webotp-20588.web.app #12345</code></pre> to this phone.
+          </div>
+          <div style="border:1px solid; padding: 5px; margin: 10px 0;">
+            <form action="ngPwaApp/test" method="post">
+              Enter OTP here:
+              <input type="text" autocomplete="one-time-code" inputmode="numeric" name="one-time-code"
+              [(ngModel)]="myOTP" >
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    </div>
+  </div>
+</ion-app>

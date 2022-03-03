@@ -5,7 +5,7 @@ In mobile application we can auto read otp from the sms and auto complete in web
 https://webotp-20588.web.app
 
 # Sample sms format
-Your OTP is: 123456 . 
+Your OTP is: 123456 . </br>
 @webotp-20588.web.app #123456
 
 # How to check

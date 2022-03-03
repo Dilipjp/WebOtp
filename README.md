@@ -1,2 +1,2 @@
 # WebOtp
-Now like as a mobile application we can auto read otp from the sms in web applications and PWA (Progressive Web App ) 
+In mobile application we can auto read otp from the sms and auto complete in web applications or PWA 
